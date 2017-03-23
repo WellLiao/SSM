@@ -180,7 +180,9 @@
                 </configuration>
             </plugin>
 
-            <!--MBG-->
+            <!--MBG   全称是MyBatis Generator，是一个生成MyBatis代码的插件,其官网地址为 http://mbg.cndocs.tk/-->
+            <!--通过generatorConfig.xml这个文件配置所要生成相应mybatis xml文件的表，和mybatis文件需要放置的位置 -->
+            <!--命令行运行maven命令 mvn mybatis-generator:generate 生成User表的Mapper.xml文件、bean和对应的接口 -->
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
